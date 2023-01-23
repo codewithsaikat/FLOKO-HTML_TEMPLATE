@@ -1,0 +1,64 @@
+/* Active responsive font size  */
+/* Custom css */
+/* normal style */
+/* .title{
+  font-size:50px;
+}
+.font-style1{
+  font-size:60px;
+}
+.font-style2{
+  font-size:50px;
+}
+.font-style3{
+  font-size:40px;
+}.font-style4{
+  font-size:30px;
+} */
+/* responsive style */
+.title {
+  font-size: calc(1.4375rem + 2.25vw);
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 3.125rem;
+  }
+}
+
+.font-style1 {
+  font-size: calc(1.5rem + 3vw);
+}
+@media (min-width: 1200px) {
+  .font-style1 {
+    font-size: 3.75rem;
+  }
+}
+
+.font-style2 {
+  font-size: calc(1.4375rem + 2.25vw);
+}
+@media (min-width: 1200px) {
+  .font-style2 {
+    font-size: 3.125rem;
+  }
+}
+
+.font-style3 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  .font-style3 {
+    font-size: 2.5rem;
+  }
+}
+
+.font-style4 {
+  font-size: calc(1.3125rem + 0.75vw);
+}
+@media (min-width: 1200px) {
+  .font-style4 {
+    font-size: 1.875rem;
+  }
+}
+
+/*# sourceMappingURL=rfs.css.map */
